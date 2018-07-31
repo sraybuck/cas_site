@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* window widths smaller than 1200px - the original container size + margins */
+@media screen and (max-width: 1200px) {
+	
+	/* switch from static 960px container to a fluid 90% container at smaller display sizes */
+	.container {
+		width: 90%;
+	}
+	ul#menu li a.button {
+
+	/* this padding defines the size of the buttons */
+	padding: 10px 20px;
+	font-size: 1em;
+	}
+	/*this forces the left and right columns on the media page into one column*/
+	.left{
+		width: 100%;
+	}
+	.right{
+		float: left;
+		width: 90%;
+	}
+	/*adjusts font size of title to shrink as screen size decreases*/
+	#title-page h1{ 
+	font-size: 4em;
+	}
+	#title-page h3{ 
+	font-size: 1em;
+	}
+	p,li{
+		font-size: 1em;
+	}
+}
+@media screen and (max-width:1060px){
+	ul#menu li a.button{
+		font-size: .8em;
+	}
+	
+}
+@media screen and (max-width:800px){
+	/*change splash image to a more mobile-friendly one on smaller displays*/
+	
+	ul#menu li a.button {
+
+	/* this padding defines the size of the buttons */
+	padding: 20px 40px;
+	font-size: .8em;
+	}
+    #title-page h1{ 
+	font-size: 3em;
+	}
+	#title-page h3{ 
+	font-size: .8em;
+	}
+@media screen and (min-width: 767px) {
+	img#author{
+		height: 202px;
+		width: 270px;
+	}
+}
+@media screen and (max-width: 767px) {
+	ul#menu li a.button {
+
+	/* this padding defines the size of the buttons */
+	padding: 20px 24px;
+	font-size: .6em;
+	}
+	#copyright{
+		width: 88px;
+		height: auto;
+	}
+	img#author{
+		float: left;
+		margin: 5px;
+		width: 95%;
+	}
+}
+@media screen and (max-width: 480px) {
+	ul#menu li a.button {
+
+	/* this padding defines the size of the buttons */
+		padding: 12px;
+		font-size: .5em;
+	}
+	img{
+		width: 90%;
+		height: auto;
+	}
+	
+}
+@media screen and (max-width: 350px){
+	ul#menu li a.button {
+
+	/* this padding defines the size of the buttons */
+		padding: 8px;
+		font-size: .5em;
+	}
+}
