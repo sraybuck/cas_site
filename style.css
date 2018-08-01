@@ -41,25 +41,25 @@ li{
     color: #FFFFFF;
 }
 /*title page specific styles*/
-    #title-page{ 
-    width: 100%; 
+    #title-page{
+    width: 100%;
     padding-top: 200px;
-    color: #fff; text-align: right; 
-} 
-    #title-page h1 { 
-    font-size: 5em; 
+    color: #fff; text-align: right;
+}
+    #title-page h1 {
+    font-size: 4.5em;
     text-shadow: 4px 4px #000;
     font-family: BankGothic, sans-serif;
     font-weight: bold;
     padding: 30px 20px 0px 0px;
     margin:0px;
     color: #fff;
-   } 
-    #title-page h3 { 
-    font-size: 1.9em; 
-    font-style: italic; 
-    margin: 0 40px; 
-    text-shadow: 2px 2px #000; 
+   }
+    #title-page h3 {
+    font-size: 1.9em;
+    font-style: italic;
+    margin: 0 40px;
+    text-shadow: 2px 2px #000;
     font-family:'Yantramanav', sans-serif;
     padding: 0px 20px 20px 0px;
     margin: 0px;
@@ -69,7 +69,7 @@ li{
 #splash{
     height: 775px;
     background: url(images/park.jpg) no-repeat center top fixed;
-   	background-size: cover;  
+   	background-size: cover;
 }
 #overview{
     background-color: #0C1438;
@@ -82,7 +82,7 @@ li{
 }
 /*#workshops{
     background: url(images/TLOUwallpaper.jpg) no-repeat center top fixed;
-   	background-size: cover; 
+   	background-size: cover;
 }
 #gamestext{
   color: #ffffff;
@@ -124,28 +124,28 @@ li{
 }
 /*navbar styles*/
 #navbar{
-	position: fixed; 
+	position: fixed;
 	top: 0;
 	width: 100%;
-	height:64px;
+	height:63px;
 	background-color: rgba(255, 255, 255, 0.8);
   z-index: 2;
-}	
+}
 
 ul#menu {
 	list-style: none; /* eliminates bullets */
 	/* adjust padding top to adjust nav bar vertical position */
 	padding-top: 0px;
-} 
+}
 ul#menu li {
 	float: left; /* changes list from vertical to horizontal */
 	padding-bottom: 20px;
-} 
+}
 ul#menu li a.button {
 	font-size: 20px;
 	text-decoration: none;
 	/* this padding defines the size of the buttons */
-	padding: 32px 27px 30px 27px; 
+	padding: 32px 27px 30px 27px;
 }
 /* change button color when mouse hovers over */
 ul#menu li a.button:hover {
@@ -173,7 +173,7 @@ img {
 iframe{
   z-index: 1;
   margin: 10px 150px 0px 150px;
-  
+
 }
 /*table styles*/
 table{
