@@ -98,6 +98,65 @@ li{
 #contact{
     background-color: #243E8C;
 }
+/*footer styles*/
+#footer{
+	width: 100%;
+	height:60px;
+	background-color: #d3d8e8;
+  z-index: 2;
+}
+a#cc{
+  position: relative;
+  top: 5px;
+  font-family:'Yantramanav', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  line-height: 1.5em;
+  color: #0C1438;
+  font-size: 1em;
+}
+div.foot{
+  position: relative;
+  top: 15px;
+
+}
+#creativecommons{
+  width: 1200px; /* static width container always stays at this width no matter what the window size */
+  height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+    margin-right: 10px;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    float: right;
+    margin-right: 10px;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  float: right;
+}
 /*column styles*/
 .left{
   float:left;
@@ -143,6 +202,7 @@ ul#menu li {
 }
 ul#menu li a.button {
 	font-size: 20px;
+  font-weight: bold;
 	text-decoration: none;
 	/* this padding defines the size of the buttons */
 	padding: 32px 27px 30px 27px;
@@ -157,17 +217,12 @@ ul#menu li a.button:visited{
 ul.list,{
   margin: 0px 0px 0px 30px;
 }
-/*image styles*/
-img {
-  border: 3px solid #43485B;
-  float: right;
-  margin: 20px;
-  width: 200px;
-  height: auto;
-}
+/*footer styles*/
 #copyright{
   float: left;
-  margin: 0px 20px 0px 0px;
+  height: 30px;
+  width: auto;
+  margin: 15px 10px 10px 20px;
 }
 /*video styles*/
 iframe{
@@ -191,12 +246,10 @@ ul a:link {
 }
 a:link {
 	font-weight: bold;
-	color: red;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #106D8B;
 	text-decoration: none;
 }
 a:hover {
