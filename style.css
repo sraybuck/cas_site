@@ -9,7 +9,7 @@ body{
   font-family: BankGothic;
   src: url(fonts/bankgothicmedium.otf);
 }
-h3{
+h2{
     font-family:'Yantramanav', sans-serif;
     font-size: 32px;
     margin: 0px;
@@ -55,7 +55,7 @@ li{
     margin:0px;
     color: #fff;
    }
-    #title-page h3 {
+    #title-page h2 {
     font-size: 1.9em;
     font-style: italic;
     margin: 0 40px;
@@ -74,8 +74,11 @@ li{
 #overview{
     background-color: #0C1438;
 }
+#about{
+    background-color: #243E8C;
+}
 #coaching{
-    background-color: #43485B;
+    background-color: #0C1438;
 }
 #workshops{
     background-color: #243E8C;
@@ -88,12 +91,8 @@ li{
   color: #ffffff;
   background-color: rgba(0, 0, 0,.7);
 }*/
-
-#revisions{
-    background-color: #0C1438;
-}
 #testimonials{
-    background-color: #43485B;
+    background-color: #0C1438;
 }
 #contact{
     background-color: #243E8C;
