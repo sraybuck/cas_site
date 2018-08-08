@@ -41,20 +41,23 @@ li{
     color: #FFFFFF;
 }
 /*title page specific styles*/
+  .container2{
+    width: 1410px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
     #title-page{
-    width: 100%;
     padding-top: 200px;
     color: #fff; text-align: right;
-    float: right;
 
 }
     #title-page h1 {
     display: inline;
-    font-size: 4.5em;
+    font-size: 4.3em;
     text-shadow: 4px 4px #000;
     font-family: BankGothic, sans-serif;
     font-weight: bold;
-    padding: 30px 20px 0px 20px;
+    padding: 30px 20px 0px 0px;
     margin:0px;
     color: #fff;
    }
@@ -69,7 +72,7 @@ li{
     color: #ffffff;
 }
     #title-page img{
-    float: right;
+    float: left;
     height:70px;
     width: auto;
     display: inline;
@@ -181,11 +184,6 @@ div.foot{
 /*container styles*/
 .container {
   width: 1200px; /* static width container always stays at this width no matter what the window size */
-  margin: 0 auto;
-  overflow: hidden;
-}
-#title-page{
-  width:100%;
   margin: 0 auto;
   overflow: hidden;
 }
