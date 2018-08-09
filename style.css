@@ -17,13 +17,16 @@ h2{
     padding: 20px 20px 10px 20px;
     color: #FFFFFF;
 }
-h4{
+h3{
     font-family:'Yantramanav', sans-serif;
     font-size: 26px;
     margin: 0px;
     line-height: 1.5em;
     color: #ffffff;
     padding: 20px 20px 20px 20px;
+}
+.about, h3{
+  text-align: center;
 }
 p{
     font-family:'Yantramanav', sans-serif;
@@ -77,6 +80,7 @@ li{
     width: auto;
     display: inline;
     }
+
 /*section styles*/
 #splash{
     height: 775px;
@@ -87,13 +91,15 @@ li{
     background-color: #0C1438;
 }
 #about{
-    background-color: #243E8C;
+    background: url(images/chairs.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+#abouttext{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0,.5);
 }
 #coaching{
     background-color: #0C1438;
-}
-#workshops{
-    background-color: #243E8C;
 }
 /*#workshops{
     background: url() no-repeat center top fixed;
@@ -104,10 +110,15 @@ li{
   background-color: rgba(0, 0, 0,.7);
 }*/
 #testimonials{
-    background-color: #0C1438;
+  background: url(images/grad.jpg) no-repeat center top fixed;
+  background-size: cover;
+}
+#testtext{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0,.5);
 }
 #contact{
-    background-color: #243E8C;
+    background-color: #0C1438;
 }
 /*footer styles*/
 #footer{
@@ -163,11 +174,6 @@ div.foot{
     float: right;
     margin-right: 10px;
 }
-.fa-instagram {
-  background: #125688;
-  color: white;
-  float: right;
-}
 /*column styles*/
 .left{
   float:left;
@@ -200,7 +206,8 @@ div.foot{
 ul#menu {
 	list-style: none; /* eliminates bullets */
 	/* adjust padding top to adjust nav bar vertical position */
-	padding-top: 0px;
+	padding: 0px;
+  marign: 0px;
 }
 ul#menu li {
 	float: left; /* changes list from vertical to horizontal */
@@ -211,7 +218,7 @@ ul#menu li a.button {
   font-weight: bold;
 	text-decoration: none;
 	/* this padding defines the size of the buttons */
-	padding: 32px 27px 30px 27px;
+	padding: 32px 60px 30px 60px;
 }
 /* change button color when mouse hovers over */
 ul#menu li a.button:hover {
