@@ -171,7 +171,7 @@
           jQuery(document).ready(function () {
             jQuery('.button').click(function() {
               targetName = jQuery(this).attr('href');
-              targetLocation = jQuery(targetName).offset().top;
+              targetLocation = jQuery(targetName).offset().top - 63;
               jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
               return false;
               });
