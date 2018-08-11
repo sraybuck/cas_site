@@ -52,14 +52,15 @@ li{
     #title-page{
     padding-top: 200px;
     color: #fff; text-align: right;
-
-}
+  }
     #title-page h1 {
     display: inline;
-    font-size: 4.3em;
+    font-size: 5em;
     text-shadow: 4px 4px #000;
-    font-family: BankGothic, sans-serif;
+    font-family: 'Play', sans-serif;
     font-weight: bold;
+    letter-spacing: 3px;
+    transform: scale(1, 2);
     padding: 30px 20px 0px 0px;
     margin:0px;
     color: #fff;
@@ -75,10 +76,12 @@ li{
     color: #ffffff;
 }
     #title-page img{
-    float: left;
+    float: right;
     height:70px;
     width: auto;
     display: inline;
+    position: relative;
+    top: 20px;
     }
 
 /*section styles*/
@@ -187,6 +190,10 @@ div.foot{
   position: relative;
   bottom: 15px;
 }
+#contact div.left, div.right{
+  width: 33%;
+}
+
 /*container styles*/
 .container {
   width: 1200px; /* static width container always stays at this width no matter what the window size */
@@ -212,20 +219,24 @@ ul#menu {
 ul#menu li {
 	float: left; /* changes list from vertical to horizontal */
 	padding-bottom: 20px;
+  color: #1E2333;
+}
+ul#menu li#name{
+  padding: 0px 30px 30px 30px;
 }
 ul#menu li a.button {
 	font-size: 20px;
   font-weight: bold;
 	text-decoration: none;
 	/* this padding defines the size of the buttons */
-	padding: 32px 60px 30px 60px;
+	padding: 32px 30px 30px 30px;
 }
 /* change button color when mouse hovers over */
 ul#menu li a.button:hover {
 	background-color: rgba(36, 62, 140, .2);
 }
-ul#menu li a.button:visited{
-  color: #1E2333;
+ul#menu li a.button:visited {
+	color: #1E2333;
 }
 ul.list,{
   margin: 0px 0px 0px 30px;
