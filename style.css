@@ -1,6 +1,17 @@
 @charset "UTF-8";
 /*CSS Document*/
-/*general styles*/
+/* 1. General Text Styles
+   2. Title Page Styles
+   3. Section Styles
+   4. Footer Styles
+   5. Social Icon Styles
+   6. Column Styles
+   7. Container Styles
+   8. Navbar Styles
+   9. Link Styles */
+
+
+/*GENERAL TEXT STYLES*/
 body{
     margin:0;
     padding:0;
@@ -25,9 +36,6 @@ h3{
     color: #ffffff;
     padding: 20px 20px 20px 20px;
 }
-.about, h3{
-  text-align: center;
-}
 p{
     font-family:'Yantramanav', sans-serif;
     font-weight: 300;
@@ -43,48 +51,36 @@ li{
     font-size: 1.5em;
     color: #FFFFFF;
 }
-/*title page specific styles*/
-  .container2{
-    width: 1410px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-    #title-page{
-    padding-top: 200px;
-    color: #fff;
-    text-align: center;
-  }
-    #title-page h1 {
-    display: inline;
-    font-size: 5em;
-    text-shadow: 4px 4px #000;
-    font-family: 'Play', sans-serif;
-    font-weight: bold;
-    letter-spacing: 3px;
-    transform: scale(1, 2);
-    padding: 30px 20px 0px 0px;
-    margin:0px;
-    color: #fff;
-   }
-    #title-page h2 {
-    font-size: 1.9em;
-    margin: 0 40px;
-    text-shadow: 2px 2px #000;
-    font-family:'Yantramanav', sans-serif;
-    padding: 0px 20px 20px 0px;
-    margin: 0px;
-    color: #ffffff;
-}
-    #title-page img{
-    float: right;
-    height:70px;
-    width: auto;
-    display: inline;
-    position: relative;
-    top: 20px;
-    }
 
-/*section styles*/
+/*TITLE PAGE STYLES*/
+#title-page{
+  padding-top: 200px;
+  color: #fff;
+  text-align: center;
+  }
+#title-page h1 {
+  display: inline;
+  font-size: 5em;
+  text-shadow: 4px 4px #000;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  transform: scale(1, 2);
+  padding: 30px 20px 0px 0px;
+  margin:0px;
+  color: #fff;
+   }
+#title-page h2 {
+  font-size: 1.9em;
+  margin: 0 40px;
+  text-shadow: 2px 2px #000;
+  font-family:'Yantramanav', sans-serif;
+  padding: 0px 20px 20px 0px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+/*SECTION STYLES*/
 #splash{
     height: 775px;
     background: url(images/park.jpg) no-repeat center top fixed;
@@ -101,17 +97,12 @@ li{
   color: #ffffff;
   background-color: rgba(0, 0, 0,.5);
 }
+.about, h3{
+  text-align: center;
+}
 #coaching{
     background-color: #0C1438;
 }
-/*#workshops{
-    background: url() no-repeat center top fixed;
-   	background-size: cover;
-}
-#gamestext{
-  color: #ffffff;
-  background-color: rgba(0, 0, 0,.7);
-}*/
 #testimonials{
   background: url(images/grad.jpg) no-repeat center top fixed;
   background-size: cover;
@@ -123,13 +114,19 @@ li{
 #contact{
     background-color: #0C1438;
 }
-/*footer styles*/
+
+/*FOOTER STYLES*/
 #footer{
 	width: 100%;
 	height:60px;
 	background-color: #0C1438;
   z-index: 2;
-
+}
+#copyright{
+  float: left;
+  height: 30px;
+  width: auto;
+  margin: 15px 10px 10px 20px;
 }
 a#cc{
   position: relative;
@@ -146,13 +143,14 @@ div.foot{
 
 }
 #creativecommons{
-  width: 1200px; /* static width container always stays at this width no matter what the window size */
+  width: 1200px;
   height: 60px;
   margin: 0 auto;
   overflow: hidden;
 }
-/* Style all font awesome icons */
-.fa {
+
+/* SOCIAL ICON STYLES */
+.fa{
     padding: 10px;
     font-size: 30px;
     width: 20px;
@@ -160,24 +158,23 @@ div.foot{
     text-decoration: none;
     border-radius: 25%;
 }
-.fa:hover {
+.fa:hover{
     opacity: 0.7;
 }
-/* Facebook */
-.fa-facebook {
+.fa-facebook{
     background: #3B5998;
     color: white;
     float: right;
     margin-right: 10px;
 }
-/* Twitter */
-.fa-twitter {
+.fa-twitter{
     background: #55ACEE;
     color: white;
     float: right;
     margin-right: 10px;
 }
-/*column styles*/
+
+/*COLUMN STYLES*/
 .left{
   float:left;
   width: 50%;
@@ -194,13 +191,19 @@ div.foot{
   width: 33%;
 }
 
-/*container styles*/
+/*CONTAINER STYLES*/
 .container {
-  width: 1200px; /* static width container always stays at this width no matter what the window size */
+  width: 1200px;
   margin: 0 auto;
   overflow: hidden;
 }
-/*navbar styles*/
+.container2{
+  width: 1410px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*NAVBAR STYLES*/
 #navbar{
 	position: fixed;
 	top: 0;
@@ -209,15 +212,13 @@ div.foot{
 	background-color: rgba(255, 255, 255, 0.8);
   z-index: 2;
 }
-
 ul#menu {
-	list-style: none; /* eliminates bullets */
-	/* adjust padding top to adjust nav bar vertical position */
+	list-style: none;
 	padding: 0px;
   marign: 0px;
 }
 ul#menu li {
-	float: left; /* changes list from vertical to horizontal */
+	float: left;
 	padding-bottom: 20px;
   color: #1E2333;
 }
@@ -234,10 +235,8 @@ ul#menu li a.button {
 	font-size: 20px;
   font-weight: bold;
 	text-decoration: none;
-	/* this padding defines the size of the buttons */
 	padding: 32px 20px 20px 20px;
 }
-/* change button color when mouse hovers over */
 ul#menu li a.button:hover {
 	background-color: rgba(36, 62, 140, .2);
 }
@@ -247,28 +246,8 @@ ul#menu li a.button:visited {
 ul.list,{
   margin: 0px 0px 0px 30px;
 }
-/*footer styles*/
-#copyright{
-  float: left;
-  height: 30px;
-  width: auto;
-  margin: 15px 10px 10px 20px;
-}
-/*video styles*/
-iframe{
-  z-index: 1;
-  margin: 10px 150px 0px 150px;
 
-}
-/*table styles*/
-table{
-  margin: 20px;
-  border: 1px solid #000000;
-}
-th,td{
-			border: 1px solid #000000;
-		}
-/*link styles*/
+/*LINK STYLES*/
 ul a:link {
 	font-weight: bold;
 	color: #0C1438;

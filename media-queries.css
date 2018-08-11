@@ -3,7 +3,7 @@
 
 /* window widths smaller than 1200px - the original container size + margins */
 @media screen and (max-width: 1200px) {
-	
+
 	/* switch from static 960px container to a fluid 90% container at smaller display sizes */
 	.container {
 		width: 90%;
@@ -16,17 +16,17 @@
 	}
 	/*this forces the left and right columns on the media page into one column*/
 	.left{
-		width: 100%;
+		width: 90%;
 	}
 	.right{
 		float: left;
 		width: 90%;
 	}
 	/*adjusts font size of title to shrink as screen size decreases*/
-	#title-page h1{ 
+	#title-page h1{
 	font-size: 4em;
 	}
-	#title-page h3{ 
+	#title-page h3{
 	font-size: 1em;
 	}
 	p,li{
@@ -37,29 +37,23 @@
 	ul#menu li a.button{
 		font-size: .8em;
 	}
-	
+
 }
 @media screen and (max-width:800px){
 	/*change splash image to a more mobile-friendly one on smaller displays*/
-	
-	ul#menu li a.button {
 
+	ul#menu li a.button {
 	/* this padding defines the size of the buttons */
 	padding: 20px 40px;
 	font-size: .8em;
 	}
-    #title-page h1{ 
+  #title-page h1{
 	font-size: 3em;
 	}
-	#title-page h3{ 
+	#title-page h3{
 	font-size: .8em;
 	}
-@media screen and (min-width: 767px) {
-	img#author{
-		height: 202px;
-		width: 270px;
-	}
-}
+
 @media screen and (max-width: 767px) {
 	ul#menu li a.button {
 
@@ -88,7 +82,7 @@
 		width: 90%;
 		height: auto;
 	}
-	
+
 }
 @media screen and (max-width: 350px){
 	ul#menu li a.button {
