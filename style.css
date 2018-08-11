@@ -31,7 +31,7 @@ h3{
 p{
     font-family:'Yantramanav', sans-serif;
     font-weight: 300;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: 0px;
     line-height: 1.5em;
     color: #FFFFFF;
@@ -40,7 +40,7 @@ p{
 li{
     font-family:'Yantramanav', sans-serif;
     font-weight: 300;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #FFFFFF;
 }
 /*title page specific styles*/
@@ -51,7 +51,8 @@ li{
   }
     #title-page{
     padding-top: 200px;
-    color: #fff; text-align: right;
+    color: #fff;
+    text-align: center;
   }
     #title-page h1 {
     display: inline;
@@ -67,7 +68,6 @@ li{
    }
     #title-page h2 {
     font-size: 1.9em;
-    font-style: italic;
     margin: 0 40px;
     text-shadow: 2px 2px #000;
     font-family:'Yantramanav', sans-serif;
@@ -180,17 +180,17 @@ div.foot{
 /*column styles*/
 .left{
   float:left;
-  width: 600px;
+  width: 50%;
   position: relative;
   bottom: 15px;
 }
 .right{
   float: right;
-  width: 550px;
+  width: 50%;
   position: relative;
   bottom: 15px;
 }
-#contact div.left, div.right{
+#contact div.left, #contact div.right{
   width: 33%;
 }
 
@@ -221,15 +221,21 @@ ul#menu li {
 	padding-bottom: 20px;
   color: #1E2333;
 }
+ul#menu img{
+  width: 50px;
+  height: auto;
+  position: relative;
+  bottom: 7px;
+}
 ul#menu li#name{
-  padding: 0px 30px 30px 30px;
+  padding: 0px 20px 30px 10px;
 }
 ul#menu li a.button {
 	font-size: 20px;
   font-weight: bold;
 	text-decoration: none;
 	/* this padding defines the size of the buttons */
-	padding: 32px 30px 30px 30px;
+	padding: 32px 20px 20px 20px;
 }
 /* change button color when mouse hovers over */
 ul#menu li a.button:hover {
