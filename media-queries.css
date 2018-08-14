@@ -13,8 +13,14 @@
 @media screen and (max-width: 1200px) {
 
 	/* switch from static 960px container to a fluid 90% container at smaller display sizes */
-	.container,.container2 {
+	#creativecommons, .container,.container2 {
 		width: 90%;
+	}
+	#creativecommons img{
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 70px;
+		height: auto;
 	}
 	ul#menu li a.button {
 		padding: 21px 20px;
@@ -40,10 +46,6 @@
 	p,li{
 		font-size: 1em;
 	}
-	#splash{
-		background: url(images/park3.jpg) no-repeat;
-		background-size: contain;
-	}
 }
 @media screen and (max-width:1060px){
 	ul#menu li a.button{
@@ -52,7 +54,7 @@
 
 }
 @media screen and (max-width: 948px){
-	#menu-icon {
+	#menu-icon{
 		display: inline-block;
 	}
 	ul#menu li.link{
@@ -110,14 +112,18 @@
 	#contact div.left p, #contact div.right p{
 		margin: auto;
 	}
-	#title-page h1{
-
+	.fa{
+		float: none;
 	}
+
 }
 @media screen and (max-width: 500px){
 	#abouttext img{
 		width: 80%;
 		height: auto;
+	}
+	ul#menu li#name{
+		font-size: .9em;
 	}
 }
 @media screen and (max-width: 480px){
@@ -135,5 +141,15 @@
 	ul#menu li a.button {
 		padding: 8px;
 		font-size: .5em;
+	}
+	ul#menu li img{
+		height: 30px;
+		width: auto;
+		position: relative;
+		top: -2px;
+	}
+	ul#menu li#name{
+		font-size: .8em;
+	}
 	}
 }

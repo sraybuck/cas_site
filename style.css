@@ -16,10 +16,6 @@ body{
     margin:0;
     padding:0;
 }
-@font-face{
-  font-family: BankGothic;
-  src: url(fonts/bankgothicmedium.otf);
-}
 h2{
     font-family:'Yantramanav', sans-serif;
     font-size: 32px;
