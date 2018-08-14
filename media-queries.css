@@ -2,32 +2,40 @@
 /* CSS Document */
 
 /* window widths smaller than 1200px - the original container size + margins */
+@media screen and (max-width: 1410px){
+	.container2{
+		width: 95%;
+	}
+	h1{
+		font-size: 4em;
+	}
+}
 @media screen and (max-width: 1200px) {
 
 	/* switch from static 960px container to a fluid 90% container at smaller display sizes */
-	.container {
+	.container,.container2 {
 		width: 90%;
 	}
 	ul#menu li a.button {
-
-	/* this padding defines the size of the buttons */
-	padding: 10px 20px;
-	font-size: 1em;
+		padding: 21px 20px;
+		font-size: 1em;
 	}
-	/*this forces the left and right columns on the media page into one column*/
+	ul#menu li#name, ul#menu li.link{
+		position: relative;
+		top: 5px;
+	}
 	.left{
-		width: 90%;
+		width: 100%;
 	}
 	.right{
 		float: left;
-		width: 90%;
+		width: 100%;
 	}
-	/*adjusts font size of title to shrink as screen size decreases*/
 	#title-page h1{
-	font-size: 4em;
+		font-size: 3.5em;
 	}
-	#title-page h3{
-	font-size: 1em;
+	#title-page h2{
+		font-size: 1.5em;
 	}
 	p,li{
 		font-size: 1em;
@@ -39,27 +47,44 @@
 	}
 
 }
+@media screen and (max-width: 948px){
+	#menu-icon {
+		display: inline-block;
+	}
+	ul#menu li.link{
+		display: none;
+	}
+	ul#menu-small, ul#menu-small:active{
+		display: none;
+	}
+	#menu-icon:hover + ul#menu-small{
+		display: block;
+	}
+	#menu-icon:active + ul#menu-small{
+		display:block;
+	}
+	ul#menu-small:hover{
+		display:block;
+	}
+}
 @media screen and (max-width:800px){
 	/*change splash image to a more mobile-friendly one on smaller displays*/
 
 	ul#menu li a.button {
-	/* this padding defines the size of the buttons */
-	padding: 20px 40px;
-	font-size: .8em;
+		padding: 20px 40px;
+		font-size: .8em;
 	}
   #title-page h1{
-	font-size: 3em;
+		font-size: 3em;
 	}
-	#title-page h3{
-	font-size: .8em;
+	#title-page h2{
+		font-size: 1.2em;
 	}
 
 @media screen and (max-width: 767px) {
 	ul#menu li a.button {
-
-	/* this padding defines the size of the buttons */
-	padding: 20px 24px;
-	font-size: .6em;
+		padding: 20px 24px;
+		font-size: .6em;
 	}
 	#copyright{
 		width: 88px;
@@ -71,23 +96,39 @@
 		width: 95%;
 	}
 }
-@media screen and (max-width: 480px) {
-	ul#menu li a.button {
+@media screen and (max-width: 660px){
+	#contact div.left{
+		width: 50%;
+	}
+	#contact div.right{
+		width: 90%;
+	}
+	#contact div.left p, #contact div.right p{
+		margin: auto;
+	}
+	#title-page h1{
 
-	/* this padding defines the size of the buttons */
+	}
+}
+@media screen and (max-width: 500px){
+	#abouttext img{
+		width: 80%;
+		height: auto;
+	}
+}
+@media screen and (max-width: 480px){
+	ul#menu li a.button {
 		padding: 12px;
 		font-size: .5em;
 	}
-	img{
+}
+@media screen and (max-width: 463px){
+	#contact div.left{
 		width: 90%;
-		height: auto;
 	}
-
 }
 @media screen and (max-width: 350px){
 	ul#menu li a.button {
-
-	/* this padding defines the size of the buttons */
 		padding: 8px;
 		font-size: .5em;
 	}
