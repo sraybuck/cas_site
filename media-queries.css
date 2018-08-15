@@ -16,12 +16,6 @@
 	#creativecommons, .container,.container2 {
 		width: 90%;
 	}
-	#creativecommons img{
-		margin-left: 0px;
-		margin-bottom: 0px;
-		width: 70px;
-		height: auto;
-	}
 	ul#menu li a.button {
 		padding: 21px 12px;
 		font-size: 1em;
@@ -75,6 +69,13 @@
 	ul#menu-small:hover{
 		display:block;
 	}
+	ul#menu li img{
+		width: 35px;
+		height: auto;
+		position: relative;
+		top: -2px;
+
+	}
 }
 @media screen and (max-width:800px){
 	/*change splash image to a more mobile-friendly one on smaller displays*/
@@ -94,15 +95,6 @@
 	ul#menu li a.button {
 		padding: 20px 24px;
 		font-size: .6em;
-	}
-	#copyright{
-		width: 88px;
-		height: auto;
-	}
-	img#author{
-		float: left;
-		margin: 5px;
-		width: 95%;
 	}
 }
 @media screen and (max-width: 660px){
@@ -152,12 +144,6 @@
 	ul#menu li a.button {
 		padding: 8px;
 		font-size: .5em;
-	}
-	ul#menu li img{
-		height: 30px;
-		width: auto;
-		position: relative;
-		top: -2px;
 	}
 	ul#menu li#name{
 		font-size: .8em;
