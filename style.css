@@ -12,14 +12,6 @@
 
 
 /*GENERAL TEXT STYLES*/
-@font-face {
-  font-family: 'Yantramanav';
-  src: url(fonts/yantramanav/yantramanav-regular.otf);
-}
-@font-face{
-  font-family: 'Play';
-  src: url(fonts/play/play-regular.otf);
-}
 body{
     margin:0;
     padding:0;
@@ -235,7 +227,7 @@ ul#menu li a.button {
 	font-size: 20px;
   font-weight: bold;
 	text-decoration: none;
-	padding: 20px 20px 17px 20px;
+	padding: 20px 15px 17px 15px;
 }
 ul#menu li a.button:hover {
 	background-color: rgba(36, 62, 140, .2);
@@ -256,8 +248,12 @@ ul.list,{
   float: right;
 }
 a:hover#menu-icon {
-	background-color: #444;
+
+  background-color: #0e06e5;
 	border-radius: 4px 4px 0 0;
+}
+ul#menu-small li a:hover{
+  color: #0e06e5;
 }
 ul#menu-small{
   display: none;
