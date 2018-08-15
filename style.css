@@ -258,7 +258,7 @@ ul#menu-small li a:hover{
 ul#menu-small{
   display: none;
   position: absolute;
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
   background: #fff;
 	border: 5px solid #0C1438;
   right: 30px;

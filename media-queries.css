@@ -66,6 +66,9 @@
 	#menu-icon:active + ul#menu-small{
 		display:block;
 	}
+	#menu-icon:focus + ul#menu-small{
+		display: none;
+	}
 	ul#menu-small:hover{
 		display:block;
 	}
