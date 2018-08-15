@@ -112,9 +112,6 @@
 	#contact div.left p, #contact div.right p{
 		margin: auto;
 	}
-	.fa{
-		float: none;
-	}
 
 }
 @media screen and (max-width: 500px){
@@ -135,6 +132,14 @@
 @media screen and (max-width: 463px){
 	#contact div.left{
 		width: 90%;
+	}
+}
+@media screen and (max-width: 414px){
+	#footer{
+		height: 100px;
+	}
+	.fa{
+		float: left;
 	}
 }
 @media screen and (max-width: 350px){

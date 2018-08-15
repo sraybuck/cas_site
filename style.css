@@ -121,13 +121,8 @@ li{
 	background-color: #0C1438;
   z-index: 2;
 }
-#copyright{
-  float: left;
-  height: 30px;
-  width: auto;
-  margin: 15px 10px 10px 20px;
-}
 a#cc{
+  display: block;
   position: relative;
   top: 5px;
   font-family:'Yantramanav', sans-serif;
@@ -135,6 +130,7 @@ a#cc{
   line-height: 1.5em;
   color: #ffffff;
   font-size: 1em;
+  padding-bottom: 10px;
 }
 div.foot{
   position: relative;
@@ -145,7 +141,6 @@ div.foot{
   width: 1200px;
   height: 60px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 /* SOCIAL ICON STYLES */
