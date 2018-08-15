@@ -141,6 +141,9 @@
 	.fa{
 		float: left;
 	}
+	a#cc{
+		display: block;
+	}
 }
 @media screen and (max-width: 350px){
 	ul#menu li a.button {
