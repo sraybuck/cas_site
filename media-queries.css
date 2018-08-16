@@ -57,9 +57,6 @@
 	ul#menu li.link{
 		display: none;
 	}
-	ul#menu-small, ul#menu-small:active{
-		display: none;
-	}
 	#menu-icon:hover + ul#menu-small{
 		display: block;
 	}
